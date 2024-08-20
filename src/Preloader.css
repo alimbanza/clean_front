@@ -1,0 +1,139 @@
+.desabledfield{
+    background:#fff !important;
+}
+
+.desabledfield:hover{
+    cursor:not-allowed !important;
+}
+
+.completionField{
+    z-index:1000 !important ;
+    position:absolute !important;
+    top:65% !important;
+    left:2% !important;
+    list-style-type:none !important;
+    background-color:#fff !important;
+    width:77% !important;
+    box-shadow: 0px 0px 3px rgba(0,0,0, 0.80);
+    padding:10px 10px !important;
+}
+
+
+.completionField li{
+    list-style-type:none !important;
+    color:#000 !important;
+    height:40px !important;
+    cursor: pointer !important;
+}
+
+.completionField li:hover{
+    background-color:#000 !important;
+    color:#fff !important ;
+}
+
+/*
+Two
+*/
+.completionFieldTwo{
+    z-index:1000 !important ;
+    position:relative !important;
+    top:-55px !important;
+    left:550px !important;
+    list-style-type:none !important;
+    background-color:#fff !important;
+    width:67% !important;
+    box-shadow: 0px 0px 3px rgba(0,0,0, 0.80);
+    padding:10px 10px !important;
+}
+
+.completionFieldTwo li{
+    list-style-type:none !important;
+    color:#000 !important;
+    height:40px !important;
+    cursor: pointer !important;
+}
+
+.completionFieldTwo li:hover{
+    background-color:#000 !important;
+    color:#fff !important ;
+}
+
+/*
+Two
+*/
+
+/*
+Tree
+*/
+.completionFieldTree{
+    z-index:1000 !important ;
+    position:relative !important;
+    top:-50px !important;
+    left:520px !important;
+    list-style-type:none !important;
+    background-color:#fff !important;
+    width:67% !important;
+    box-shadow: 0px 0px 3px rgba(0,0,0, 0.80);
+    padding:10px 10px !important;
+}
+
+.completionFieldTree li{
+    list-style-type:none !important;
+    color:#000 !important;
+    height:40px !important;
+    cursor: pointer !important;
+}
+
+.completionFieldTree li:hover{
+    background-color:#000 !important;
+    color:#fff !important ;
+}
+/*
+Tree
+*/
+
+/*
+Four
+*/
+.completionFieldFour{
+    z-index:1000 !important ;
+    position:relative !important;
+    top:-50px !important;
+    left:520px !important;
+    list-style-type:none !important;
+    background-color:#fff !important;
+    width:60% !important;
+    box-shadow: 0px 0px 3px rgba(0,0,0, 0.80);
+    padding:10px 10px !important;
+}
+
+.completionFieldFour li{
+    list-style-type:none !important;
+    color:#000 !important;
+    height:40px !important;
+    cursor: pointer !important;
+}
+
+.completionFieldFour li:hover{
+    background-color:#000 !important;
+    color:#fff !important ;
+}
+/*
+Four
+*/
+
+.custom-loader {
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    padding:1px;
+    background:conic-gradient(#0000 10%,#f09819 ) content-box;
+    -webkit-mask:
+      repeating-conic-gradient(#0000 0deg,#000 1deg 20deg,#0000 21deg 36deg),
+      radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 calc(100% - 8px));
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect;
+    animation:s4 1s infinite steps(10);
+  }
+
+  @keyframes s4 {to{transform: rotate(1turn)}}
